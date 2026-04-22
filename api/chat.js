@@ -26,7 +26,7 @@ export default async function handler(req, res) {
                                                     
                                                       } catch (error) {
                                                           console.error(error);
-                                                              res.status(500).json({ reply: "My signal is acting up, give me a second... 😵‍💫" });
+                                                              res.status(500).json({ reply: "Google Error: " + error.message });
                                                                 }
                                                                 }
                                                                 
