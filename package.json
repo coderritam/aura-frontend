@@ -1,6 +1,6 @@
 {
   "type": "module",
   "dependencies": {
-    "@google/generative-ai": "^0.1.1"
+    "@google/generative-ai": "latest"
   }
 }
